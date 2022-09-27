@@ -1,0 +1,18 @@
+/* navbar */
+.navbar .container {
+    height: 126px;
+}
+
+.nav-list {}
+
+.nav-list-link {
+    color: var(--clr-grey);
+    display: inline-block;
+    padding: 0 20px;
+    transition: .25s ease color;
+}
+
+.nav-list-link.active,
+.nav-list-link:hover {
+    color: var(--clr-black);
+}

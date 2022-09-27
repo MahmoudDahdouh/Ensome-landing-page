@@ -7,6 +7,19 @@
     font-family: 'Manrope', sans-serif;
 }
 
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 /**
 * Colors
 */
@@ -80,14 +93,16 @@
 }
 
 /* Default / SemiBold / Headline 7 */
-.txt-hl-7 {
+
+.txt-hl-7-medium {
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
     letter-spacing: -0.01em;
 }
 
-.txt-hl-7-medium {
+/* Default / Medium / Headline 7 */
+.txt-hl-7 {
     font-size: 14px;
     font-weight: 500;
     line-height: 24px;
@@ -160,4 +175,48 @@
 
 .shadow-dropdown {
     box-shadow: 0px 2px 6px rgba(0, 43, 78, 0.15), 0px 1px 2px rgba(0, 43, 78, 0.3);
+}
+
+
+/**
+** Display
+**/
+/* flex */
+.d-flex {
+    display: flex;
+}
+
+.center-items {
+    justify-content: center;
+    align-items: center;
+}
+
+.space-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/**
+** Components
+**/
+/* buttons */
+.btn {
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    background-color: var(--clr-primary);
+    color: #fff;
+}
+
+.btn-with-icon {
+    padding: 10px 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
