@@ -37,3 +37,7 @@
 .feature-item {
     column-gap: 95px;
 }
+
+.tags {
+    margin-top: 16px;
+}
