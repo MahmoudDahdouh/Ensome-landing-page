@@ -41,3 +41,21 @@
 .tags {
     margin-top: 16px;
 }
+
+/* reviews */
+.reviews-section-header {
+    width: 41.6%;
+}
+
+.reviewer-name {
+    margin-top: 35px;
+}
+
+.reviewer-card {
+    position: relative;
+}
+
+.reviewer-img {
+    position: absolute;
+    top: -40px;
+}
