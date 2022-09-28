@@ -21,10 +21,19 @@
 }
 
 
-/* solutions */
+/* advantages */
 /* cards */
 .card-icon {
     border: 1px solid var(--clr-background);
     border-radius: 12px;
     padding: 14px;
+}
+
+/* features */
+.features {
+    padding: 90px 0;
+}
+
+.feature-item {
+    column-gap: 95px;
 }

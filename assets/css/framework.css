@@ -243,6 +243,9 @@ li {
     display: flex;
 }
 
+.flex-d-col {
+    flex-direction: column;
+}
 
 .center-items {
     justify-content: center;
@@ -251,6 +254,17 @@ li {
 
 .space-between {
     justify-content: space-between;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
     align-items: center;
 }
 
