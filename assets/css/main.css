@@ -3,8 +3,6 @@
     height: 126px;
 }
 
-.nav-list {}
-
 .nav-list-link {
     color: var(--clr-grey);
     display: inline-block;
@@ -15,4 +13,18 @@
 .nav-list-link.active,
 .nav-list-link:hover {
     color: var(--clr-black);
+}
+
+/* header */
+.hero-btns {
+    margin-top: 35px;
+}
+
+
+/* solutions */
+/* cards */
+.card-icon {
+    border: 1px solid var(--clr-background);
+    border-radius: 12px;
+    padding: 14px;
 }

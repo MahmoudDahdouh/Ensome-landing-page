@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ensome | Home</title>
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/logos/favicon.png">
 
     <!-- Fontawesome icons library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -22,39 +22,110 @@
 </head>
 
 <body>
+    <!-- navbar -->
     <nav class="navbar">
         <div class="container d-flex space-between">
             <div class="logo">
-                <img src="./assets/images/logo_blue.png" alt="logo">
+                <img draggable="false" src="./assets/images/logos/logo_blue.png" alt="logo">
             </div>
             <!-- links list -->
             <ul class="nav-list d-flex">
                 <li class="nav-list-item">
-                    <a href="#" class="nav-list-link txt-hl-7-medium active">Home</a>
+                    <a href="#" class="nav-list-link txt-hl-7-semi active">Home</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="#" class="nav-list-link txt-hl-7-medium">Solutions</a>
+                    <a href="#" class="nav-list-link txt-hl-7-semi">Solutions</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="#" class="nav-list-link txt-hl-7-medium">Pages</a>
+                    <a href="#" class="nav-list-link txt-hl-7-semi">Pages</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="#" class="nav-list-link txt-hl-7-medium">Elements</a>
+                    <a href="#" class="nav-list-link txt-hl-7-semi">Elements</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="#" class="nav-list-link txt-hl-7-medium">Blog</a>
+                    <a href="#" class="nav-list-link txt-hl-7-semi">Blog</a>
                 </li>
                 <li class="nav-list-item">
-                    <a href="#" class="nav-list-link txt-hl-7-medium">Contacts</a>
+                    <a href="#" class="nav-list-link txt-hl-7-semi">Contacts</a>
                 </li>
             </ul>
 
-            <button class="btn btn-with-icon">
+            <button class="btn btn-sm btn-primary-icon-sm">
                 <i class="fa-xl fa-regular fa-circle-play"></i>
                 <span>Watch the demo</span>
             </button>
         </div>
     </nav>
+
+    <!-- header -->
+    <header class="header">
+        <div class="container d-flex center-items gap-3">
+            <div class="hero-info w-50">
+                <h1 class="hero-header txt-hl-1">Find true power in your data with Ensome</h1>
+                <p class="header-p txt-p-1 clr-grey mt-3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque
+                    laudantium,
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
+                    dicta sunt explicabo.</p>
+                <div class="hero-btns d-flex gap-2 txt-hl-6">
+                    <button class="btn btn-primary">Learn more</button>
+                    <button class="btn btn-text-icon">
+                        <i class="fa-xl fa-regular fa-circle-play"></i>
+                        <span>Watch the demo</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-img w-50">
+                <img src="./assets/images/hero-img.png" alt="">
+            </div>
+        </div>
+        <div class="container d-flex space-between">
+            <img src="./assets/images/logos/logo_1.png" alt="">
+            <img src="./assets/images/logos/logo_2.png" alt="">
+            <img src="./assets/images/logos/logo_3.png" alt="">
+            <img src="./assets/images/logos/logo_4.png" alt="">
+            <img src="./assets/images/logos/logo_5.png" alt="">
+            <img src="./assets/images/logos/logo_6.png" alt="">
+        </div>
+    </header>
+
+    <!-- solutions section -->
+    <section class="solution bg-background pt-10 pb-10">
+        <div class="container">
+
+            <h2 class="txt-hl-1 txt-align-center">Why our clients<br>chosse Ensome?</h2>
+            <p class="txt-align-center mt-3  clr-grey">Doloremque laudantium, totam rem aperiam, eaque ipsa<br>quae ab
+                illo inventore veritatis et quasi architecto beatae<br>vitae dicta sunt explicabo.</p>
+
+            <div class="solutions-cards d-flex space-between gap-3 mt-5">
+                <div class=" card shadow-card-2">
+                    <div class="card-icon">
+                        <img src="./assets/images/icons/ic_brain_circuit.svg" class="clr-red" alt="">
+                    </div>
+                    <h3 class="card-title mt-3">Machine learning</h3>
+                    <p class="card-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                </div>
+                <div class=" card shadow-card-2">
+                    <div class="card-icon">
+                        <img src="./assets/images/icons/ic_arrow_trending_lines.svg" class="clr-red" alt="">
+                    </div>
+                    <h3 class="card-title mt-3">Embed analytics</h3>
+                    <p class="card-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                </div>
+                <div class=" card shadow-card-2">
+                    <div class="card-icon">
+                        <img src="./assets/images/icons/ic_key.svg" class="clr-red" alt="">
+                    </div>
+                    <h3 class="card-title mt-3">Access control</h3>
+                    <p class="card-desc">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                        praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- app js script -->
     <script src="./assets/js/app.js"></script>
 </body>
