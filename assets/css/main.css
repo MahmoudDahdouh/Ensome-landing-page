@@ -59,3 +59,19 @@
     position: absolute;
     top: -40px;
 }
+
+
+/* overview */
+.overview-section {
+    padding: 70px 0;
+}
+
+.overview-item {
+    padding: 0 48px;
+}
+
+.v-line {
+    width: 1px;
+    height: 92px;
+    margin: 0 15px;
+}

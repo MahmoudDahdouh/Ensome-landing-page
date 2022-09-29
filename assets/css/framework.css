@@ -72,6 +72,10 @@ li {
     color: var(--clr-black);
 }
 
+.clr-white {
+    color: var(--clr-white);
+}
+
 .clr-grey {
     color: var(--clr-grey);
 }
@@ -89,6 +93,10 @@ li {
     background-color: var(--clr-background);
 }
 
+.bg-primary {
+    background-color: var(--clr-primary);
+}
+
 /******************************************************************************************
 * Typography
 */
@@ -101,6 +109,16 @@ li {
     font-weight: 800;
     line-height: 60px;
     letter-spacing: -0.015em;
+}
+
+.txt-hl-1-extra {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 112px;
+    letter-spacing: -0.025em;
+    text-align: center;
+
 }
 
 /* Default / ExtraBold / Headline 2 */
@@ -180,7 +198,7 @@ li {
 
 /* Default / Regular / Paragraph 2 */
 .txt-p-2,
-.txt-p-2.bold {
+.txt-p-2-bold {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -188,7 +206,7 @@ li {
     letter-spacing: -0.015em;
 }
 
-.txt-p-2.bold {
+.txt-p-2-bold {
     font-weight: 700;
 }
 
@@ -267,6 +285,11 @@ li {
 
 .space-between {
     justify-content: space-between;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+
 }
 
 .flex-start {
