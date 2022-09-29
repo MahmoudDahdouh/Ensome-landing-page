@@ -129,7 +129,7 @@
     <!-- features section -->
     <section class="features" id="features">
         <div class="container d-flex flex-d-col gap-3">
-            <div class="feature-item d-flex center-items gap-3">
+            <div class="feature-item d-flex center-items">
                 <div class="feature-txt w-50">
                     <h2 class="txt-hl-1">The newest business analytics platform</h2>
                     <p class="txt-p-1 mt-3 clr-grey">
@@ -140,12 +140,12 @@
                     </p>
                     <button class="btn btn-primary shadow-btn mt-3">Learn more</button>
                 </div>
-                <div class="feature-img w-50 d-flex flex-start">
+                <div class="feature-img d-flex flex-start">
                     <img src="./assets/images/002_illustration.png" alt="">
                 </div>
             </div>
-            <div class="feature-item d-flex center-items gap-3">
-                <div class="feature-img w-50  d-flex flex-end">
+            <div class="feature-item d-flex center-items">
+                <div class="feature-img  d-flex flex-end">
                     <img src="./assets/images/003_llustration.png" alt="">
                 </div>
                 <div class="feature-txt w-50">
@@ -265,8 +265,48 @@
                 <p class="txt-p-2-bold">Satisfied customers</p>
             </div>
         </div>
-
     </section>
+
+    <!-- contact us -->
+    <section class="contact-us bg-background">
+        <div class="container d-flex space-between">
+            <div class="contact-text w-50">
+                <h3 class="contact-title txt-hl-2">
+                    Left questions? Contacts us now for a free consultation and free trial!
+                </h3>
+                <p class="contact-subtitle txt-p-2 clr-grey">Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                    corporis suscipit
+                    laboriosam, nisi ut aliquid ex ea commodi.</p>
+
+                <!-- contacts -->
+                <div class="contacts">
+                    <p class="txt-p-2 clr-grey">Email address</p>
+                    <h4 class="txt-p-2-bold">ensome@info.co.us</h4>
+                    <p class="txt-p-2 clr-grey">Phone number</p>
+                    <h4 class="txt-p-2-bold">+1601-201-5580</h4>
+                    <p class="txt-p-2 clr-grey">Address</p>
+                    <h4 class="txt-p-2-bold">1642 Washington Avenue, Jackson, MS, Mississippi, 39201</h4>
+                </div>
+            </div>
+            <div class="card contact-card bg-white p-5">
+                <h3 class="txt-hl-3">Contact us</h3>
+                <form>
+                    <label for="name" class="mt-2">Name</label>
+                    <input type="text" name="name" id="name" placeholder="your name">
+                    <label for="email" class="mt-2">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                    <label for="theme" class="mt-2">Theme</label>
+                    <input type="text" name="theme" id="theme" placeholder="prefered theme">
+                    <label for="message" class="mt-2">Message</label>
+                    <input type="text" name="message" id="message" placeholder="a message...">
+                    <div class="d-flex flex-end">
+                        <button type="submit" class="submit-btn btn btn-sm">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
     <!-- app js script -->
     <script src="./assets/js/app.js"></script>
 </body>

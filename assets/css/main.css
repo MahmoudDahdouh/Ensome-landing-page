@@ -38,6 +38,11 @@
     column-gap: 95px;
 }
 
+.feature-img {
+    flex: 1;
+    width: 0;
+}
+
 .tags {
     margin-top: 16px;
 }
@@ -74,4 +79,34 @@
     width: 1px;
     height: 92px;
     margin: 0 15px;
+    opacity: 0.2;
+}
+
+/* contact us */
+.contact-us {
+    padding: 120px 0;
+}
+
+.contact-us .container {
+    column-gap: 125px;
+}
+
+.contact-subtitle {
+    margin-top: 24px;
+}
+
+.contact-us .contacts {
+    margin-top: 80px;
+}
+
+.contact-us .contacts>p {
+    margin-top: 24px;
+}
+
+.contact-card {
+    flex: 1;
+}
+
+.contact-us .submit-btn {
+    margin-top: 83px;
 }

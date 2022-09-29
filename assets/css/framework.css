@@ -132,10 +132,11 @@ li {
 /* Default / ExtraBold / Headline 3 */
 .txt-hl-3 {
     font-size: 30px;
-    font-weight: 800;
     line-height: 40px;
     letter-spacing: -0.015em;
+    font-weight: 800;
 }
+
 
 /* Default / Bold / Headline 4 */
 
@@ -325,6 +326,8 @@ li {
 **/
 /* buttons */
 .btn {
+    min-width: 190px;
+    min-height: 54px;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
@@ -339,12 +342,13 @@ li {
     transition: 0.25s ease opacity;
 }
 
-
 .btn:hover {
     opacity: 0.8;
 }
 
 .btn-sm {
+    min-width: 137px;
+    min-height: 44px;
     font-size: 14px;
     font-weight: 600;
     line-height: 24px;
@@ -471,7 +475,39 @@ li {
     color: var(--clr-grey);
 }
 
+/* form */
+label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: var(--clr-grey);
+    display: block;
+}
 
+input {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    color: var(--clr-black);
+}
+
+input[type='text'],
+input[type='email'] {
+    display: block;
+    width: 100%;
+    background: transparent;
+    outline: none;
+    border-bottom: 1px solid var(--clr-black);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding: 5.5px 0;
+}
 
 /******************************************************************************************
 ** Sizes
@@ -532,6 +568,31 @@ li {
 
 
 /* paddings */
+/* padding */
+.p-1 {
+    padding: 10px;
+}
+
+.p-2 {
+    padding: 20px;
+}
+
+.p-3 {
+    padding: 30px;
+}
+
+.p-4 {
+    padding: 40px;
+}
+
+.p-5 {
+    padding: 50px;
+}
+
+.p-10 {
+    padding: 100px;
+}
+
 /* padding top */
 .pt-1 {
     padding-top: 10px;
