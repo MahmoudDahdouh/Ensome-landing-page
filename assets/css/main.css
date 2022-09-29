@@ -65,6 +65,9 @@
     top: -40px;
 }
 
+.reviews-btns {
+    column-gap: 15px;
+}
 
 /* overview */
 .overview-section {
@@ -109,4 +112,40 @@
 
 .contact-us .submit-btn {
     margin-top: 83px;
+}
+
+/* subscribe */
+.subscribe-section {
+    padding: 80px 0;
+}
+
+.subscribe-section .container {
+    column-gap: 125px;
+}
+
+.subscribe-section .subscribe-subtitle {
+    margin-top: 24px;
+}
+
+.subscribe-section .subscribe-email-input {
+    background-color: var(--clr-helper-blue-3);
+    border-radius: 6px;
+    padding: 15px 25px;
+    color: var(--clr-black);
+    border: none;
+    flex: 1;
+}
+
+.subscribe-section .subscribe-email-input::placeholder {
+    color: var(--clr-black);
+    opacity: 1;
+}
+
+.subscribe-section .subscribe-action form {
+    background-color: var(--clr-helper-blue-3);
+    border-radius: 6px;
+}
+
+.subscribe-section .subscribe-action form button {
+    min-width: 125px;
 }
