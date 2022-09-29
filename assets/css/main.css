@@ -85,6 +85,10 @@
     opacity: 0.2;
 }
 
+.h-line {
+    height: 1px;
+}
+
 /* contact us */
 .contact-us {
     padding: 120px 0;
@@ -148,4 +152,40 @@
 
 .subscribe-section .subscribe-action form button {
     min-width: 125px;
+}
+
+/* footer */
+.info-links {
+    margin: 0 120px;
+}
+
+.footer-contact-item {
+    gap: 36px;
+    margin-top: 15px;
+}
+
+.txt-arrow {
+    gap: 4px;
+}
+
+.social-links {
+    margin: 0 30px;
+}
+
+.social-links-list {
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-link-item {
+    color: white;
+    background-color: var(--clr-primary);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.footer-down-l {
+    gap: 76px;
 }
