@@ -8,7 +8,9 @@
 }
 
 .container {
-    width: 1110px;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -210,6 +212,10 @@ li {
 /**
 ** Display
 **/
+.d-none {
+    display: none;
+}
+
 .d-inline {
     display: inline;
 }
@@ -465,7 +471,6 @@ input[type='email'] {
 input[type='text']:focus,
 input[type='email']:focus {
     border-bottom: 1px solid var(--clr-primary);
-    pointer
 }
 
 /******************************************************************************************
@@ -491,7 +496,9 @@ input[type='email']:focus {
 }
 
 /* width */
-.w-50 {
+.w-50,
+.w-50-sm,
+.w-50-md {
     width: 50%;
 }
 
@@ -690,4 +697,150 @@ input[type='email']:focus {
 
 .bg-helper-blue-3 {
     background-color: var(--clr-helper-blue-3);
+}
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .order-xs-1 {
+        order: 1;
+    }
+
+    .order-xs-2 {
+        order: 2;
+    }
+
+    .flex-d-col-xs {
+        flex-direction: column;
+    }
+
+    .company-logos {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .order-sm-1 {
+        order: 1;
+    }
+
+    .order-sm-2 {
+        order: 2;
+    }
+
+    .flex-d-col-sm {
+        flex-direction: column;
+    }
+
+    .flex-start-sm {
+        align-items: flex-start;
+    }
+
+    .justify-content-start-sm {
+        justify-content: flex-start;
+    }
+
+    .w-50-sm {
+        width: 100%;
+    }
+
+    .hidden-sm {
+        display: none;
+    }
+
+    .visiable-sm {
+        display: block;
+    }
+
+    .gap-2-sm {
+        gap: 20px !important;
+    }
+
+    .gap-5-sm {
+        gap: 50px !important;
+    }
+
+    /* margin 0 */
+    .m-0-sm {
+        margin: 0 !important;
+    }
+
+    .mt-2-sm {
+        margin-top: 20px !important;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .order-md-1 {
+        order: 1;
+    }
+
+    .order-md-2 {
+        order: 2;
+    }
+
+    .flex-d-col-md {
+        flex-direction: column;
+    }
+
+    .flex-start-md {
+        align-items: flex-start;
+    }
+
+    .justify-content-start-md {
+        justify-content: flex-start;
+    }
+
+    .gap-2-md {
+        gap: 20px !important;
+    }
+
+    .gap-5-md {
+        gap: 50px !important;
+    }
+
+    .w-50-md {
+        width: 100%;
+    }
+
+    .h-auto-md {
+        height: auto !important;
+    }
+
+    .mt-2-md {
+        margin-top: 20px !important;
+    }
+
+    .pt-2-md {
+        padding-top: 20px !important;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .company-logos {
+        flex-wrap: wrap;
+    }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 999999px) {}
+
+/* for large images */
+@media (max-width: 1750px) {
+    .res-img {
+        width: 100%;
+        height: auto;
+    }
 }

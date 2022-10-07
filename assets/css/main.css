@@ -20,6 +20,9 @@
     margin-top: 35px;
 }
 
+.company-logos {
+    margin-top: 48px;
+}
 
 /* advantages */
 /* cards */
@@ -87,6 +90,9 @@
 
 .h-line {
     height: 1px;
+    width: 100%;
+    margin: 35px 15px;
+    opacity: 0.2;
 }
 
 /* contact us */
@@ -188,4 +194,10 @@
 
 .footer-down-l {
     gap: 76px;
+}
+
+@media (max-width: 1750px) {
+    .feature-img {
+        width: 100%;
+    }
 }
